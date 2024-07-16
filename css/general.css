@@ -1,0 +1,44 @@
+:root {
+  --primary: rgb(11, 56, 89);
+  --accent: rgb(155, 160, 142);
+  --bg: rgb(9, 22, 39);
+  /* --primary: rgb(23, 11, 59);
+    --accent: rgb(52, 25, 72);
+    --bg: rgb(147, 136, 162);
+    --header: rgb(14, 5, 15); */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
