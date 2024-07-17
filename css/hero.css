@@ -29,9 +29,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.4rem 7%;
+  padding: 1.5rem 7%;
   max-width: 100%;
-  gap: 10rem;
+  gap: 5rem;
 }
 
 .hero .content div h1 {
@@ -42,7 +42,6 @@
 
 .hero .content div p {
   font-size: 1.5em;
-  margin-top: 1rem;
   line-height: 1.4;
   font-weight: 100;
   max-width: 40rem;
