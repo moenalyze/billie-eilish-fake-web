@@ -1,5 +1,5 @@
 .hero {
-  padding: 16rem 7% 6rem;
+  padding: 10rem 7% 10rem;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -86,6 +86,10 @@
 
 /* Mobile Phone */
 @media (max-width: 450px) {
+  .hero {
+    padding: 1.5rem 7% 10rem;
+  }
+
   .hero .content {
     justify-content: center;
     flex-wrap: wrap-reverse;
