@@ -1,6 +1,7 @@
 .hero {
   min-height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
   background-image: url("../img/hero-bg-3.jpg");
   background-repeat: no-repeat;
@@ -74,4 +75,28 @@
 
 .hero-cta:hover:active {
   opacity: 0.8;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  .hero .content {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 3rem;
+  }
+
+  .hero .content div {
+    text-align: center;
+  }
+
+  .hero .content div h1,
+  .hero .content div p {
+    margin-bottom: 1rem;
+  }
 }

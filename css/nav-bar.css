@@ -4,7 +4,7 @@ nav {
   align-items: center;
   padding: 1.4rem;
   background-color: #000000;
-  position: sticky;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -38,4 +38,17 @@ nav {
 
 .middle-nav a:hover::after {
   transform: scaleX(0.5);
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  nav {
+    position: sticky;
+  }
 }
