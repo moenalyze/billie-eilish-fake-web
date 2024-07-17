@@ -1,11 +1,11 @@
 .about {
-  padding: 10rem 7% 5rem;
+  padding: 10rem 7% 10rem;
   min-height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 0.5rem;
+  justify-content: center;
+  gap: 5rem;
 }
 
 .about .content {
@@ -40,4 +40,19 @@
 
 .about .content div span {
   font-weight: 500;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  .about .content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+  }
 }
