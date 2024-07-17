@@ -32,13 +32,13 @@ body {
 /* Tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 62.5%;
+    font-size: 70%;
   }
 }
 
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    font-size: 65%;
   }
 }

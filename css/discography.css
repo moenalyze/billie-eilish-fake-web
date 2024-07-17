@@ -66,10 +66,6 @@
 
 /* Media Queries */
 
-/* Tablet */
-@media (max-width: 768px) {
-}
-
 /* Mobile Phone */
 @media (max-width: 450px) {
   .discography .content {
