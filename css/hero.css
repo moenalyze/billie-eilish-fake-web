@@ -86,6 +86,10 @@
     padding: 1.5rem 7% 10rem;
   }
 
+  .hero::after {
+    height: 28%;
+  }
+
   .hero .content {
     justify-content: center;
     flex-wrap: wrap-reverse;
